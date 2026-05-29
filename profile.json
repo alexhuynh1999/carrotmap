@@ -1,0 +1,28 @@
+{
+  "name": "Default",
+  "tap_duration_ms": 120,
+  "triggers": {
+    "threshold": 128,
+    "left":  { "key": "A", "repeat": false, "repeat_interval_ms": 30 },
+    "right": { "key": "F", "repeat": true, "repeat_interval_ms": 30 }
+  },
+  "left_stick": {
+    "deadzone": 8000,
+    "threshold": 16000,
+    "up":    "Up",
+    "down":  "Down",
+    "left":  "Left",
+    "right": "Right"
+  },
+  "mappings": [
+    { "button": "B",  "key": "Space" },
+    { "button": "X",  "key": "E" },
+    { "button": "Y",  "key": "R" },
+    { "button": "LB", "key": "Q" },
+    { "button": "RB", "key": "F" },
+    { "button": "DPad_Down", "key": "R" },
+    { "button": "DPad_Left", "key": "Q" },
+    { "button": "DPad_Up", "key": "W" },
+    { "button": "DPad_Right", "key": "E" }
+  ]
+}
